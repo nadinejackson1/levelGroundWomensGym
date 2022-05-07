@@ -1,0 +1,342 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Open Sans;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+  
+  }
+  
+  
+  .top-wrapper{
+    background-image: url("https://github.com/NadineJackson1/levelGroundWomensGym/blob/main/jonathan-borba-H6wTktsFxik-unsplash.jpg?raw=true");
+    background-size:cover;
+    background-position: 80% 100%;
+    min-height:100vh;
+    padding:0 5%;
+  }
+  
+  section{
+    overflow: hidden;
+  }
+  
+  header > a{
+    display:inline-block;
+    text-align: right;
+    padding-top:20px;
+  }
+  
+  header > a.logo{
+    text-align: center;
+    padding-top:10px;
+  }
+  
+  header > a.logo img{
+    width:150px;
+  }
+  
+  .btn > span{
+    text-decoration: none;
+    padding:5px 20px;
+    background-color: orange;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  header nav, header > a{
+    float:left;
+    width:33.33%;
+    text-decoration: none;
+  }
+  
+  header nav ul{
+      list-style-type: none;
+      overflow: hidden;
+  }
+  
+  header nav ul li a{
+    text-transform:uppercase;
+    font-weight: 600;
+    color:#fff;
+    float:left;
+    font-size:0.9rem;
+    text-decoration:none;
+    padding-right:10px;
+    display: inline-block;
+    padding-top: 20px;
+  }
+  
+  main{
+    padding-top:200px;
+  }
+  
+  main h1 , main p{
+    text-align: center;
+  }
+  
+  main h1{
+    font-size: 4rem;
+    font-family: Oswald;
+    color:white;
+    margin:0;
+    text-shadow: 3px 3px 6px #222;
+  }
+  
+  main p{
+    padding-top:20px;
+    width:70%;
+    margin:auto;
+    color: #fff;
+    line-height: 1.5;
+    text-shadow: 3px 3px 6px #555;
+  }
+  
+  main div{
+    text-align: center;
+    margin-top:20px;
+  }
+  
+  main div span{
+    color:white;
+    font-weight: 700;
+  }
+  
+  section.why{
+      padding:80px 0 120px;
+  }
+  
+  section.why h2 , section.why p {
+    text-align:center;
+    font-size: 15px;
+  }
+  
+  section.why h2{
+    font-size: 35px;
+    font-family: Oswald;
+    font-weight: bold;
+  }
+  
+  section.why p{
+    width:50%;
+    margin: auto;
+    padding-top:30px;
+    line-height: 1.6;
+  }
+  
+  .two-section{
+    background-image: url('https://github.com/NadineJackson1/levelGroundWomensGym/blob/main/annie-spratt-6a3nqQ1YwBw-unsplash.jpg?raw=true');
+    color:white;
+    padding:10% 0;
+    text-align: center;
+  }
+  
+  .two-section > .inner{
+    width:80%;
+    margin:auto;
+  }
+  
+  .two-section > .inner > section{
+    float:left;
+    width:45%;
+  }
+  
+  .two-section > .inner > section + section{
+    float:right;
+  }
+  
+  .two-section > .inner > section img{
+    width:50%;
+    height:40vh;
+    border:3px solid white;
+  }
+  
+  .two-section > .inner > section h3{
+    text-align:center;
+    margin-top:50px;
+    font-size: 30px;
+    font-family:Oswald;
+  }
+  
+  .two-section > .inner > section p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .two-section > .inner > section button , .volunteer button{
+    margin-top:30px;
+    padding:10px 40px;
+    background: none;
+    border:1px solid white;
+    font-family: Oswald;
+    color:white;
+    font-weight: 600;
+    transition:0.3s; 
+  }
+  
+  .two-section > .inner > section button:hover{
+    background-color: white;
+    color:#333;
+  }
+  
+  .volunteer{
+    padding:80px 0 120px 0;
+    text-align: center;
+  }
+  
+  .volunteer h2{
+    font-family: Oswald;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .volunteer p{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    padding-top:30px;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  
+  .volunteer button{
+    border-color:#333;
+    color:#333;
+    text-transform: uppercase;
+  }
+  
+  .volunteer button:hover{
+    color:#fff;
+    background-color: #333;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+  
+  footer {
+    padding-top:3%;
+    background-color: #161f2a;
+  }
+  
+  .footer-cover{
+    width:90%;
+    margin:auto;
+  }
+  
+  .footer-cover > section{
+    float:left;
+    width:50%;
+  }
+  
+  .footer-cover > section+section{
+    float:right;
+    width:50%;
+  }
+  
+  .footer-cover section ul li{
+    float:left;
+    list-style: none;
+  }
+  
+  .footer-cover section ul li i{
+    color:white;
+    font-size: 20px;
+    margin-right:20px;
+  }
+  
+  .footer-nav .site{
+    padding-top:30px;
+  }
+  
+  .footer-nav .site span{
+    color:#999;
+    font-weight: 600;
+    font-family: Oswald;
+    text-transform: uppercase;
+  }
+  
+  .footer-nav .site ul{
+    list-style-type: none;
+    padding-top:10px;
+  }
+  
+  .footer-nav .site ul li a{
+    margin-right: 30px;
+    font-size: 14px;
+    text-decoration:none;
+    color:white;
+    font-weight: 600;
+  }
+  
+  .right-footer{
+    text-align:right;
+  }
+  
+  .right-footer span{
+    font-size: 15px;
+    line-height: 1.5;
+    color:white;
+  }
+  
+  .right-footer .bold{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  footer hr{
+    width:90%;
+    margin: auto;
+    margin-top:20px;
+  }
+  
+  .bottom-footer{
+    width: 90%;
+    margin:auto;
+    padding:10px 0;
+  }
+  
+  .bottom-footer p{
+    float:left;
+    font-size: 11px;
+    color:#fff;
+  }
+  
+  .bottom-footer a{
+    float:right;
+  }
+  
+  .bottom-footer img{
+    width:50px;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
